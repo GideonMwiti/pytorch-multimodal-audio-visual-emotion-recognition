@@ -1,0 +1,65 @@
+{
+  "multimodal_accuracy": 1.0,
+  "multimodal_macro_f1": 1.0,
+  "multimodal_precision": 1.0,
+  "multimodal_recall": 1.0,
+  "audio_only_accuracy": 1.0,
+  "audio_only_macro_f1": 1.0,
+  "visual_only_accuracy": 0.5,
+  "visual_only_macro_f1": 0.3611111111111111,
+  "confusion_matrix": [
+    [
+      30,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      30,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      30,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      30,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      30,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      30
+    ]
+  ],
+  "latency_multimodal_ms": 8.59,
+  "latency_audio_only_ms": 1.76,
+  "latency_visual_only_ms": 5.4,
+  "speedup_realtime": 232.9,
+  "rtf": 0.0043
+}
